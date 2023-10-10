@@ -1,103 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
 
 body {
-    font-family: 'Inter', sans-serif;
-    color: black;
+    font-family: 'Raleway', sans-serif !important;
 }
 
-h1 {
-    font-size: 3em;
+nav {
+    z-index: 2;
 }
 
-p {
-    font-size: 2em;
+.hero-text {
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    z-index: 1;
 }
 
-.navigation {
-	display: flex;
-	align-content: center;
-	justify-content: space-around;
-    flex-wrap: flex;
-    background-color: #FED766;
-    padding: 10px;
-    width: 100%;
-    max-height: 40px;
+.hero-img {
+    position: relative;
 }
 
-a {
-  text-decoration: none;
-    font-size: 1em;
+.hero {
+    margin: 20px;
+    position: relative;
 }
 
-.nav-links {
-    color: black;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.faq {
+    width: 100vw;
+    padding: 3em;
 }
 
-.landing-page {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    max-height: 100vh;
-}
-
-.about {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    max-height: 100vh;
-}
-
-.services {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    max-height: 100vh;
-}
-
-.contact {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    max-height: 100vh;
-}
-
-.help {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    max-height: 100vh;
+.faq-title {
+    text-align: center;
 }
 
 .footer {
-    display: grid;
-	align-items: center;
-    justify-items: center;
-    background-color: #FED766;
-    padding: 10px;
-    width: 100%;
-    max-height: 100vh;
+    background-color: #143642;
+    padding: 3em;
+    color: white;
 }
 
-.footer-columns {
-    display: grid;
-	align-items: center;
-    justify-items: center;
-    background-color: #FED766;
-    padding: 10px;
-    width: 100%;
-    max-height: 100vh;
-    grid-template-columns: 1fr 1fr;
+ul li {
+    list-style: none;
+    padding: 3px;
+}
+
+.footer-title {
+    text-align: center;
+    padding: 1em;
 }
